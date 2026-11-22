@@ -1,14 +1,27 @@
 {
   "id": "youtube_video",
   "name": "YouTube — Видео",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "author": "MCAUTOS",
+  "description": "Адаптер родного YouTube-движка MCAUTOS (yt-dlp). Поиск, подборки, метаданные, воспроизведение и загрузки.",
+  "icon": "play.rectangle",
   "kinds": [
     "video"
+  ],
+  "roles": [
+    "metadata",
+    "video",
+    "subtitles",
+    "artwork"
   ],
   "capabilities": [
     "search",
     "browse",
-    "resolve"
+    "resolve",
+    "download",
+    "match",
+    "formats",
+    "subtitles"
   ],
   "requires": [
     "python3",
