@@ -1,0 +1,18 @@
+{
+  "id": "youtube_video",
+  "name": "YouTube — Видео",
+  "version": "1.0.0",
+  "kinds": [
+    "video"
+  ],
+  "capabilities": [
+    "search",
+    "browse",
+    "resolve"
+  ],
+  "requires": [
+    "python3",
+    "yt-dlp"
+  ],
+  "settings": []
+}
