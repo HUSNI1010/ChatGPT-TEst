@@ -11,7 +11,7 @@ from protocol import Failure, require_text, results, run, section
 from extractor import Extractor
 
 source = Extractor("youtube", ["video"])
-SOURCE_ID = "youtubevideo"
+SOURCE_ID = "youtube_video"
 KIND = "video"
 TOPICS = [["discover","Интересные видео","documentary technology"],["technology","Технологии","technology review 2026"],["learn","Обучение","programming tutorials"],["travel","Путешествия","travel documentary"]]
 
