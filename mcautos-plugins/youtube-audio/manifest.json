@@ -1,9 +1,9 @@
 {
   "id": "youtube_audio",
   "name": "YouTube — Аудио",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "MCAUTOS",
-  "description": "Адаптер родного YouTube-движка MCAUTOS (yt-dlp). Поиск, подборки, метаданные, воспроизведение и загрузки.",
+  "description": "Музыкальный каталог YouTube Music + резервный поиск yt-dlp; нативный аудиоплеер MCAUTOS, метаданные, обложки, подборки.",
   "icon": "music.note",
   "kinds": [
     "music"
@@ -17,10 +17,9 @@
     "search",
     "browse",
     "resolve",
-    "download",
     "match",
-    "formats",
-    "subtitles"
+    "download",
+    "formats"
   ],
   "requires": [
     "python3",
