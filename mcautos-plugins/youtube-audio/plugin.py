@@ -11,7 +11,7 @@ from protocol import Failure, require_text, results, run, section
 from extractor import Extractor
 
 source = Extractor("youtube", ["music"])
-SOURCE_ID = "youtubeaudio"
+SOURCE_ID = "youtube_audio"
 KIND = "music"
 TOPICS = [["music_hits","Популярная музыка","top music official audio"],["live","Живые выступления","live concert music"],["electronic","Электронная музыка","electronic music mix"],["rock","Рок","rock music official audio"]]
 
