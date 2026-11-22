@@ -1,0 +1,18 @@
+{
+  "id": "youtube_audio",
+  "name": "YouTube — Аудио",
+  "version": "1.0.0",
+  "kinds": [
+    "music"
+  ],
+  "capabilities": [
+    "search",
+    "browse",
+    "resolve"
+  ],
+  "requires": [
+    "python3",
+    "yt-dlp"
+  ],
+  "settings": []
+}
